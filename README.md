@@ -144,7 +144,7 @@ The final `pretrained_weights` directory should look like this:
 │   ├── retargeting_models
 │   │   └── stitching_retargeting_module.pth
 │   └── xpose.pth
-├── TencentGameMate:chinese-hubert-base
+├── chinese-hubert-base
 │   ├── chinese-hubert-base-fairseq-ckpt.pt
 │   ├── config.json
 │   ├── gitattributes
@@ -163,9 +163,6 @@ The final `pretrained_weights` directory should look like this:
     ├── tokenizer_config.json
     └── vocab.json
 ```
-
-> [!NOTE]
-> The folder `TencentGameMate:chinese-hubert-base` in Windows should be renamed `chinese-hubert-base`.
 
 ## 🚀 Inference
 
